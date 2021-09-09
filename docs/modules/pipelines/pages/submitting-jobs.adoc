@@ -169,7 +169,7 @@ class with a name like `MyJob$$Lambda$30/0x00000008000a1840`. These and
 other classes which may be depend by these functions need to present
 on the members that will be executing the job. Hazelcast supports several ways to make these classes available on the members.
 
-=== Uber JAR
+=== Uber JAR
 
 The easiest way to get additional dependencies to the cluster is to
 bundle it as a so-called uber JAR, which contains all the required
